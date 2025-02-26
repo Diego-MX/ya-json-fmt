@@ -1,6 +1,7 @@
 { "name": "ya-json-fmt",
   "displayName": "yajsonfmt",
   "description": "Yet Another JSON formatter",
+  "repository": "https://github.com/Diego-MX/ya-json-fmt.git", 
   "version": "0.0.1",
   "engines": { "vscode": "^1.97.0" },
   "categories": [ "Other" ],
