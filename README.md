@@ -1,4 +1,4 @@
-# ya-json-fmt README
+# yajsonfmt README
 
 Yet another JSON Formatter.  There are many formatter extensions in VSCode Marketplace.  
 And yet ... I couldn't find one that allowed me to format mine the way I wanted.  
@@ -32,7 +32,8 @@ For example:
 
 This extension contributes the following settings:
 
-* `ya-json-fmt.tabSize`: since it always gets set back to 4, and I like it at 2. 
+* `yajsonfmt.tabSizeFromFile`: in order to adjust the file based on its running tab size, 
+or according to its default configuration.  
 
 ## Known Issues
 

@@ -1,6 +1,7 @@
-{ "name": "ya-json-fmt",
-  "displayName": "yajsonfmt",
+{ "name": "yajsonfmt",
+  "displayName": "YA JSON Formatter",
   "description": "Yet Another JSON formatter",
+  "publisher": "DiegoMX", 
   "repository": "https://github.com/Diego-MX/ya-json-fmt.git", 
   "version": "0.0.1",
   "engines": { "vscode": "^1.97.0" },
@@ -8,9 +9,17 @@
   "activationEvents": [], 
   "main": "./out/extension.js",
   "contributes": {
+    "configuration": {
+      "title": "Formatter Simple Settings", 
+      "properties": {
+        "yajsonfmt.tabSizeFromFile": {
+          "type": "boolean", 
+          "default": false, 
+          "description": "Infer tab size from file, or use default configuration."
+        } } }, 
     "commands": [
       { "title": "Compact Brackets", 
-        "command": "ya-json-fmt.compactBrackets"
+        "command": "yajsonfmt.compactBrackets"
       } ] },
   "scripts": {
     "vscode:prepublish": "npm run compile",
